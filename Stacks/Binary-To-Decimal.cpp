@@ -1,4 +1,4 @@
-/*
+/**********************************************************************************************
     Assignment Name: M02 Programming Assignment 2.2-Binary to Decimal Conversion using Stack
     
     Programmer: Hershey Marbeda
@@ -9,7 +9,7 @@
  
     Progam Description:
     Last Date Updated: 11.04.2024
- */
+**********************************************************************************************/
 
 #include <iostream>
 #include <stack>
@@ -23,7 +23,7 @@ int BinaryToDecimal(const string& binary)
     // Declaration of Variables
     stack<int> binaryStack; // stack to store the binary number
     int decimal = 0;        // variable to store the decimal number
-    int power = 1;          // variable to store the power of 2
+    int power = 0;          // variable to store the power of 2
     
     // Push the binary digits onto the stack
     for (size_t i = 0; i < binary.length(); ++i)
@@ -38,8 +38,8 @@ int BinaryToDecimal(const string& binary)
         binaryStack.pop();          // poping the top element of stack
         
         // Formula to convert binary to decimal
-        decimal += number * power;      // converting binary to decimal
-        power *= 2;                   
+        decimal += number * static_cast<int>(pow(2, power));      // converting binary to decimal
+        power++;                    // incrementing the power of 2
     }
     
     return decimal;
