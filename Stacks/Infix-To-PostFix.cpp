@@ -1,14 +1,14 @@
 /*
-Assignment Name: M02 Programming Assignment 2.2-Infix to Postfix Conversion using Stack
-
-Programmer: Hershey Marbeda
-Instructor: Dr. Steven Carver
-Course: CSCI 202-Data Structures and Algorithms
-College: Ivy Tech Community College
-Date: 11.04.2024
-
-Progam Description:
-Last Date Updated: 11.04.2024
+    Assignment Name: M02 Programming Assignment 2.2-Infix to Postfix Conversion using Stack
+    
+    Programmer: Hershey Marbeda
+    Instructor: Dr. Steven Carver
+    Course: CSCI 202-Data Structures and Algorithms
+    College: Ivy Tech Community College
+    Date: 11.04.2024
+    
+    Progam Description:
+    Last Date Updated: 11.04.2024
 */
 
 #include <iostream>
