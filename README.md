@@ -7,3 +7,6 @@
 
 ## Assignment Description
 - The assignment asks the students to answer CH 17: Programming Exercise #7 and #10.
+
+## Note
+- Xcode users: Please comment out one cpp file so that the other cpp file would be able to compile.
