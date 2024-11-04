@@ -1,9 +1,9 @@
 # CSCI 202: M02 Programming Assignment 2.2-Stacks
 - Programmer: Hershey Marbeda
 - Instructor: Dr. Carver
-- Course: CSCI 202-Data Structures and Algorithms
+- Course: CSCI 202-Data Structures and Algorithms (Fall 2024)
 - College: Ivy Tech Community College
-- Date Submitted: []
+- Date Submitted: 11.04.2024
 
 ## Assignment Description
-- [ I will update this later.]
+- The assignment asks the students to answer CH 17: Programming Exercise #7 and #10.
