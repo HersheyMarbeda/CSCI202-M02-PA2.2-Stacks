@@ -39,7 +39,7 @@ int BinaryToDecimal(const string& binary)
         
         // Formula to convert binary to decimal
         decimal += number * power;      // converting binary to decimal
-        power *= 2;                    // incrementing the power of 2
+        power *= 2;                   
     }
     
     return decimal;
